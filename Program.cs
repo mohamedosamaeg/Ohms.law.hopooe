@@ -7,10 +7,10 @@ namespace Ohms.law_hopooe
         static void Main(string[] args)
         {
             Console.WriteLine("I value  :");
-            int I = Convert.ToInt32(Console.ReadLine());
+            decimal I = Convert.ToDecimal(Console.ReadLine());
             Console.WriteLine("R value  :");
-            int R = Convert.ToInt32(Console.ReadLine());
-            int result = I * R;
+            decimal R = Convert.ToDecimal(Console.ReadLine());
+            decimal result = I * R;
             Console.WriteLine(" V = " + result);
 
         }
