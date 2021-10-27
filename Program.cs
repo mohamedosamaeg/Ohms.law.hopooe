@@ -12,7 +12,10 @@ namespace Ohms.law_hopooe
             decimal R = Convert.ToDecimal(Console.ReadLine());
             decimal result = I * R;
             Console.WriteLine(" V = " + result);
+            Console.ReadLine();
+            
 
         }
+        
     } 
 }
